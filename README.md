@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Introduction
 
 All versions of Microsoft SQL Server has built in support for tracking changes against a database schema. There are two ways 
@@ -69,3 +70,7 @@ export NEXUS_URL='http://nexus-01:8081/repository/maven-releases/'
 export NEXUS_REPO_ID='ldap-jeremy'
 mvn deploy:deploy-file -DrepositoryId=$NEXUS_REPO_ID -Durl=$NEXUS_URL -DgeneratePom=true -Dpackaging=jar -DgroupId=com.microsoft.sqlserver -DartifactId=sqljdbc4 -Dversion=6.0.7130 -Dfile=sqljdbc4-6.0.7130.jar
 ```
+=======
+# kafka-confluent-sqlserver-driver
+fork关于通过condlunet平台实时捕获sqlserver变更数据的原始项目，添加传递内容:数据库，schema，时间戳
+>>>>>>> fe052c759ea9626148812940d8b9a26ed5339849
